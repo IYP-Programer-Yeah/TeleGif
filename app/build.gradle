@@ -1,0 +1,38 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'MAHA'
+            keyPassword '5050hoseing'
+            storeFile file('C:/Users/HoseinGhahremanzadeh/MAHA.jks')
+            storePassword '5050hoseing'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+    defaultConfig {
+        applicationId "ir.telegif.telegif"
+        minSdkVersion 8
+        targetSdkVersion 23
+        versionCode 3
+        versionName "1.1.1.1"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.3.0'
+    compile 'com.android.support:design:23.3.0'
+    compile 'com.android.support:support-v4:23.3.0'
+    compile project(':GifDrawble')
+    compile project(':libraryShowcaseView')
+}

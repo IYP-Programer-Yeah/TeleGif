@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\Android\\TeleGif\\libraryShowcaseView\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\button_normal.xml",
+        "source": "F:\\Android\\TeleGif\\libraryShowcaseView\\build\\intermediates\\bundles\\debug\\res\\drawable\\button_normal.xml"
+    },
+    {
+        "merged": "F:\\Android\\TeleGif\\libraryShowcaseView\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\button.xml",
+        "source": "F:\\Android\\TeleGif\\libraryShowcaseView\\build\\intermediates\\bundles\\debug\\res\\drawable\\button.xml"
+    },
+    {
+        "merged": "F:\\Android\\TeleGif\\libraryShowcaseView\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\cling_button_bg.xml",
+        "source": "F:\\Android\\TeleGif\\libraryShowcaseView\\build\\intermediates\\bundles\\debug\\res\\drawable\\cling_button_bg.xml"
+    }
+]
